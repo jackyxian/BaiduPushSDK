@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{87DE1AE0-8C11-4C4A-A1EB-48C0DE18EDC2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CommLib.BdPush</RootNamespace>
+    <AssemblyName>CommLib.BdPush</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\JqApi\JqApi\bin\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Report_Statistic_Device.cs" />
+    <Compile Include="Report_Statistic_Device_Mod.cs" />
+    <Compile Include="Report_Statistic_Msg.cs" />
+    <Compile Include="Report_Statistic_Msg_Mod.cs" />
+    <Compile Include="Report_Statistic_Topic.cs" />
+    <Compile Include="Report_Statistic_Topic_Mod.cs" />
+    <Compile Include="Tag_Add_Devices_Mod.cs" />
+    <Compile Include="Tag_Add_Devices.cs" />
+    <Compile Include="App_Create_Tag.cs" />
+    <Compile Include="App_Create_Tag_Mod.cs" />
+    <Compile Include="Tag_Del_Devices.cs" />
+    <Compile Include="Tag_Del_Devices_Mod.cs" />
+    <Compile Include="App_Del_Tag.cs" />
+    <Compile Include="App_Del_Tag_Mod.cs" />
+    <Compile Include="Notice_Android_Mod.cs" />
+    <Compile Include="Baidu_Helper.cs" />
+    <Compile Include="Baidu_Mod.cs" />
+    <Compile Include="Baidu_Send.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Push_All.cs" />
+    <Compile Include="Push_All_Mod.cs" />
+    <Compile Include="Push_Batch_Device.cs" />
+    <Compile Include="Push_Batch_Device_Mod.cs" />
+    <Compile Include="Push_Single_Device.cs" />
+    <Compile Include="Push_Single_Device_Mod.cs" />
+    <Compile Include="Push_Tags.cs" />
+    <Compile Include="Push_Tags_Mod.cs" />
+    <Compile Include="Report_Query_Msg_Status.cs" />
+    <Compile Include="Report_Query_Msg_Status_Mod.cs" />
+    <Compile Include="App_Query_Tags.cs" />
+    <Compile Include="App_Query_Tags_Mod.cs" />
+    <Compile Include="Report_Query_Timer_Records.cs" />
+    <Compile Include="Report_Query_Timer_Records_Mod.cs" />
+    <Compile Include="Report_Query_Topic_Records.cs" />
+    <Compile Include="Report_Query_Topic_Records_Mod.cs" />
+    <Compile Include="Tag_Device_Num.cs" />
+    <Compile Include="Tag_Device_Num_Mod.cs" />
+    <Compile Include="Timer_Cancel.cs" />
+    <Compile Include="Timer_Cancel_Mod.cs" />
+    <Compile Include="Timer_Query_List.cs" />
+    <Compile Include="Timer_Query_List_Mod.cs" />
+    <Compile Include="Tool.cs" />
+    <Compile Include="Topic_Query_List.cs" />
+    <Compile Include="Topic_Query_List_Mod.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

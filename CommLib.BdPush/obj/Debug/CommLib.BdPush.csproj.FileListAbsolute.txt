@@ -1,0 +1,10 @@
+C:\JqProjects\MyLib\Dll\CommLib.BdPush.dll
+C:\JqProjects\MyLib\Dll\CommLib.BdPush.pdb
+C:\JqProjects\MyLib\CommLib.Comm\CommLib.BdPush\obj\Debug\CommLib.BdPush.dll
+C:\JqProjects\MyLib\CommLib.Comm\CommLib.BdPush\obj\Debug\CommLib.BdPush.pdb
+C:\JqProjects\MyLib\CommLib.Comm\CommLib.BdPush\obj\Debug\CommLib.BdPush.csprojResolveAssemblyReference.cache
+C:\JqProjects\MyLib\CommLib.BaiduPush\bin\CommLib.BdPush.dll
+C:\JqProjects\MyLib\CommLib.BaiduPush\bin\CommLib.BdPush.pdb
+C:\JqProjects\MyLib\CommLib.Comm\CommLib.BdPush\bin\CommLib.BdPush.dll
+C:\JqProjects\MyLib\CommLib.Comm\CommLib.BdPush\bin\CommLib.BdPush.pdb
+C:\JqProjects\MyLib\CommLib.Comm\CommLib.BdPush\bin\Newtonsoft.Json.dll

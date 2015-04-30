@@ -1,5 +1,5 @@
 一：源码：
-1.目录：CommLib.BaiduPush
+1.目录：CommLib.BdPush
 2.使用了.net4.5框架和引用了Newtonsoft.Json.dll
 3.生成的DLL在项目的bin目录里
 二：例子：
