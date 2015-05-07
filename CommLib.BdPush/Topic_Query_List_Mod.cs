@@ -17,7 +17,7 @@ namespace CommLib.BdPush
 
         #region 属性
         public uint start {get;set;} 	                //number 	否 	整数，默认为0 	指定返回记录的起始索引位置
-        public uint limit {get;set;}                    //number 	否 	整数：[1,20]，默认20 	返回的记录条数
+        public uint limit {get;set;}                    //number 	否 	整数：[1,10]，默认10 	返回的记录条数，官网文档的默认值最大为20，是错误的
         #endregion
 
         #region 构造函数
@@ -25,7 +25,7 @@ namespace CommLib.BdPush
         {
             this.apikey = apikey;               
             this.start = 0;
-            this.limit = 20;
+            this.limit = 10;
             this.timestamp = Tool.getDefauleTimestamp();   //默认使用当前时间戳
             this.device_type = 3;           //安卓
         }
